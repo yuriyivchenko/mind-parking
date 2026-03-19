@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Парковка для розуму</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   <main class="container">
+      <h1>Парковка для розуму</h1>
+
+      <div class="input-block">
+         <textarea id="input" placeholder="Запиши думку..."></textarea>
+         <button id="addBtn">Припаркувати</button>
+      </div>
+
+      <section>
+         <h2>🅿️ Припарковані</h2>
+         <div id="parked" class="list"></div>
+      </section>
+
+      <section>
+         <h2>🔄 В роботі</h2>
+         <div id="processing" class="list"></div>
+      </section>
+
+      <section>
+         <h2>✅ Завершені</h2>
+         <div id="done" class="list"></div>
+      </section>
+   </main>
+
+   <script src="app.js"></script>
+</body>
+
+</html>
